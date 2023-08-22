@@ -1,0 +1,22 @@
+.container {
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 1rem */
+}
+.main {
+  height: 99rem;
+  width: 93rem;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sidenav {
+  width: calc(93rem - 67.5%);
+  height: 99rem;
+  background-color: green;
+  display: flex;
+  flex-direction: column;
+}
